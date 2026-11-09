@@ -12,6 +12,8 @@ Example queries:
 - `/users?city=delhi`
 - `/users?age=25&city=delhi`
 
+The API accepts whole-number ages from 0 to 120 and non-empty city names up to 100 characters. City matching ignores letter case and trims surrounding spaces. Unsupported filters, repeated filter parameters, and invalid values return `400 Bad Request`.
+
 ## Tech Stack
 
 - Node.js
@@ -22,18 +24,21 @@ Example queries:
 
 ```
 express-project-04-query-filter-api
-│
-├─ src
-│  ├─ controllers
-│  │  └─ user.controller.js
-│  │
-│  └─ routes
-│     └─ user.routes.js
-│
-├─ index.js
-├─ package.json
-├─ package-lock.json
-└─ .gitignore
+├── src/
+│   ├── controllers/
+│   │   └── user.controller.js
+│   └── routes/
+│       └── user.routes.js
+├── .gitignore
+├── image.png
+├── image-1.png
+├── image-2.png
+├── image-3.png
+├── image-4.png
+├── index.js
+├── package-lock.json
+├── package.json
+└── README.md
 ```
 
 ## Installation
@@ -132,15 +137,15 @@ Follow me
 - LinkedIn: https://www.linkedin.com/in/aashishranjan
 - Facebook: https://www.facebook.com/theash.ashish/
 
-![alt text](image.png)
+![Query-filter API response in the browser](image.png)
 
-![alt text](image-1.png)
+![Filtered user response example 1](image-1.png)
 
-![alt text](image-2.png)
+![Filtered user response example 2](image-2.png)
 
-![alt text](image-3.png)
+![Filtered user response example 3](image-3.png)
 
-![alt text](image-4.png)
+![Filtered user response example 4](image-4.png)
 
 ## Links
 

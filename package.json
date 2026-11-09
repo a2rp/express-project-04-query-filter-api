@@ -1,7 +1,7 @@
 {
     "name": "express-project-04-query-filter-api",
     "version": "1.0.0",
-    "description": "",
+    "description": "An Express.js API demonstrating validated age and city filters with query parameters.",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
@@ -11,8 +11,17 @@
         "type": "git",
         "url": "git+https://github.com/a2rp/express-project-04-query-filter-api.git"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "express",
+        "expressjs",
+        "nodejs",
+        "rest-api",
+        "query-parameters",
+        "api-filtering",
+        "input-validation",
+        "beginner-project"
+    ],
+    "author": "Ashish Ranjan",
     "license": "ISC",
     "type": "commonjs",
     "bugs": {
